@@ -3,12 +3,12 @@ name = "SigmaOS-mm"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "mm component"
+description = "SigmaOS memory management and virtual memory subsystem"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
