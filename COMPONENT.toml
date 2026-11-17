@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-mm"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "SigmaOS memory management and virtual memory subsystem"
 upstream = []
@@ -11,6 +11,6 @@ provides = ["component"]
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
